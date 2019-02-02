@@ -4,7 +4,6 @@ import BurgerIngredient from "./BurgerIngredient/BurgerIngredient";
 import Auxiliary from "./../../HOC/Auxiliary";
 
 const Burger = props => {
-	console.log(props.ingredients);
 	let transformedIngredients = Object.keys(props.ingredients)
 		.map(igKey => {
 			return [...Array(props.ingredients[igKey])].map((_, i) => {
@@ -14,7 +13,6 @@ const Burger = props => {
 		.reduce((acc, curr) => {
 			return acc.concat(curr);
 		}, []);
-	console.log(transformedIngredients.flat());
 
 	transformedIngredients = transformedIngredients.length ? (
 		transformedIngredients
