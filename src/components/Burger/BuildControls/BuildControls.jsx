@@ -4,6 +4,10 @@ import BuildControl from "./BuildControl/BuildControl";
 
 const controls = [
 	{
+		label: "Meat",
+		type: "meat",
+	},
+	{
 		label: "Salad",
 		type: "salad",
 	},
@@ -14,10 +18,6 @@ const controls = [
 	{
 		label: "Cheese",
 		type: "cheese",
-	},
-	{
-		label: "Meat",
-		type: "meat",
 	},
 ];
 

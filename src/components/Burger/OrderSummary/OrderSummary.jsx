@@ -24,7 +24,7 @@ const OrderSummary = props => {
 			<button
 				type="button"
 				clicked={props.purchaseContinue}
-				class="btn btn-outline-info"
+				className="btn btn-outline-info"
 			>
 				Continue
 			</button>
