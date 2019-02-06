@@ -1,7 +1,7 @@
 import React from "react";
 import "./Burger.css";
 import BurgerIngredient from "./BurgerIngredient/BurgerIngredient";
-import Auxiliary from "./../../HOC/Auxiliary";
+import Auxiliary from "./../../HOC/Auxiliary/Auxiliary";
 
 const Burger = props => {
 	let transformedIngredients = Object.keys(props.ingredients)

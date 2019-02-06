@@ -3,7 +3,7 @@ import Logo from "../../Logo/Logo";
 import NavItems from "../NavigationItems/NavigationItems";
 import "./SideDrawer.css";
 import Backdrop from "./../../UI/Backdrop/Backdrop";
-import Auxiliary from "./../../../HOC/Auxiliary";
+import Auxiliary from "./../../../HOC/Auxiliary/Auxiliary";
 const SideDrawer = props => {
 	let attachedClasses = ["SideDrawer", "Close"];
 	if (props.open) attachedClasses = ["SideDrawer", "Open"];
