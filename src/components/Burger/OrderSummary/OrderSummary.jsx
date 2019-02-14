@@ -29,13 +29,13 @@ class OrderSummary extends Component {
 				<Button btnType="Danger" clicked={this.props.purchaseCancelled}>
 					Cancel
 				</Button>
-				<button
-					type="button"
+				<Button
+					btnType="Success"
 					clicked={this.props.purchaseContinue}
 					className="btn btn-outline-info"
 				>
 					Continue
-				</button>
+				</Button>
 			</Auxiliary>
 		);
 	}
